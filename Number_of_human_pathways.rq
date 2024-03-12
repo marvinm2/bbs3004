@@ -1,0 +1,4 @@
+SELECT count (?pathway) as ?pathways  
+WHERE {
+?pathway a wp:Pathway ; dcterms:description ?description ; wp:organismName "Homo sapiens".
+}
